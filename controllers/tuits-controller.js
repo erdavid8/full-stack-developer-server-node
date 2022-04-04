@@ -16,7 +16,7 @@ const createTuit = (req, res) => {
     newTuit.postedBy = {};
     newTuit.postedBy.username = "Elon";
     newTuit.avatarIcon = "/images/elon_musk_sideview.jpg";
-    /* console.log(newTuit); */
+    console.log(newTuit);
     tuits.push(newTuit);
     res.json(newTuit);
 }
@@ -34,6 +34,7 @@ const updateTuit = (req, res) => {
 
 const deleteTuit = (req, res) => {
     const tuitIdToDelete = req.params.tid;
+    /* console.log(tuitIdToDelete); */
     tuits = tuits.filter(t => t._id !== tuitIdToDelete);
     res.sendStatus(200);
 }

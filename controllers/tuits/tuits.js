@@ -4,7 +4,7 @@ export default [
         "postedBy": {"username": "NASA"},
         "tuit": "In 2021, our @NASAPersevere Mars rover landed",
         "likes": 345,
-        "dislikes": 12345645,
+        "dislikes": 123457,
         "avatarIcon": "/images/astronaut.jpeg"
     },
     {
@@ -12,7 +12,7 @@ export default [
         "postedBy": { "username": "NASA" },
         "tuit": "Ingenuity helicopter takes flight.",
         "likes": 346785,
-        "dislikes": 456,
+        "dislikes": 1456,
         "avatarIcon": "/images/astronaut.jpeg"
     }
 ]
