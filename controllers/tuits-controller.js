@@ -17,7 +17,8 @@ const createTuit = (req, res) => {
     newTuit.postedBy.username = "Elon";
     newTuit.avatarIcon = "/images/elon_musk_sideview.jpg";
     /* console.log(newTuit); */
-    tuits.push(newTuit);
+//  tuits.push(newTuit);
+    tuits = [newTuit, ...tuits];
     res.json(newTuit);
 }
 
