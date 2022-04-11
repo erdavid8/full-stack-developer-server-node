@@ -1,3 +1,4 @@
+/*
 export default [
     {
         "_id": "123",
@@ -16,3 +17,4 @@ export default [
         "avatarIcon": "/images/astronaut.jpeg"
     }
 ]
+*/
